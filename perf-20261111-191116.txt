@@ -1,0 +1,435 @@
+# NEXT STROBE 성능 기록 (perflog v1)
+# 시작 2026-11-11 19:11:16 · 게임 1.0 · Unity 6000.3.3f1
+# OS Windows 11  (10.0.22631) 64bit
+# CPU 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz · 8스레드 · 2419MHz
+# RAM 16057MB
+# GPU NVIDIA GeForce MX450 · VRAM 1928MB · Direct3D11 · 드라이버 Direct3D 11.0 [level 11.1]
+# 화면 1920x1080 (FullScreenWindow) · 모니터 1920x1080@60Hz · vSync 1 · targetFrameRate -1 · 품질 5
+# 설정 저사양 False · 클릭효과 2 · 언어 0 · 일시정지세이브 True
+# 열: 초,화면,곡,프레임수,평균ms,최악ms,>20ms,>33ms,>50ms,관리힙MB,유니티할당MB,유니티예약MB,작업세트MB,상태
+# screen 0.6s → Boot
+# hitch 0.70s 2670ms · Boot
+# hitch 1.23s 483ms · Boot
+# hitch 1.37s 283ms · Boot
+1.7,Boot,,7,521.94,2670.3,5,5,5,2.2,98.0,187.4,392.6,ok
+# hitch 1.81s 183ms · Boot
+# hitch 2.24s 133ms · Boot
+2.3,Boot,,2,158.33,183.4,2,2,2,2.7,99.5,187.4,488.2,ok
+# screen 2.3s → Title
+# hitch 2.55s 433ms · Title
+# hitch 2.56s 117ms · Title
+# hitch 2.58s 167ms · Title
+# hitch 2.76s 150ms · Title
+3.3,Title,,31,45.71,433.5,6,6,5,2.5,96.6,201.7,505.0,ok
+3.5,Title,,8,16.67,16.7,0,0,0,2.9,96.6,201.7,507.3,ok
+# screen 3.5s → SongSelect
+# hitch 3.69s 233ms · SongSelect
+4.5,SongSelect,,39,27.35,233.3,9,5,3,3.1,106.2,201.7,511.2,ok
+5.5,SongSelect,,53,19.81,83.2,4,3,3,3.3,97.8,201.7,515.1,ok
+6.5,SongSelect,,56,18.15,66.7,2,2,2,3.1,97.8,201.7,519.4,ok
+7.6,SongSelect,,55,18.48,50.0,3,3,1,3.3,97.8,201.7,525.8,ok
+8.6,SongSelect,,55,18.49,50.0,3,3,0,3.5,97.9,201.7,530.1,ok
+# hitch 9.46s 100ms · SongSelect
+9.6,SongSelect,,49,21.43,100.0,4,3,3,3.2,97.9,201.7,494.3,ok
+10.6,SongSelect,,58,17.53,49.9,2,1,0,3.3,97.9,201.7,399.4,ok
+11.6,SongSelect,,58,17.24,50.0,1,1,1,6.8,102.7,201.7,384.4,ok
+12.6,SongSelect,,59,16.95,33.3,1,0,0,7.1,102.8,201.7,370.6,ok
+13.7,SongSelect,,60,16.95,33.4,1,0,0,7.0,102.8,201.7,360.8,ok
+14.7,SongSelect,,61,16.67,16.8,0,0,0,7.2,102.8,201.7,340.5,ok
+# hitch 15.16s 117ms · SongSelect
+15.7,SongSelect,,55,18.49,116.6,1,1,1,7.4,102.8,201.7,336.0,ok
+16.7,SongSelect,,60,16.95,33.3,1,0,0,3.5,102.8,201.7,336.1,ok
+17.7,SongSelect,,61,16.67,16.8,0,0,0,3.6,103.8,201.7,342.0,ok
+18.7,SongSelect,,60,16.67,16.8,0,0,0,3.8,103.8,201.7,337.8,ok
+19.7,SongSelect,,61,16.67,16.8,0,0,0,3.6,103.8,201.7,337.9,ok
+20.7,SongSelect,,60,16.67,16.7,0,0,0,3.8,103.8,201.7,337.4,ok
+21.7,SongSelect,,49,16.67,16.7,0,0,0,3.7,104.6,201.7,338.3,ok
+# screen 21.7s → Play · 0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔
+# hitch 21.78s 183ms · Play · 0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔
+# hitch 22.31s 433ms · Play · 0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔
+22.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,32,34.90,433.4,2,2,2,4.0,146.2,230.2,398.5,ok
+23.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,4.1,146.2,230.2,398.5,ok
+24.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.3,146.2,230.2,398.4,ok
+25.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,4.2,131.6,230.2,398.3,ok
+26.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,4.2,131.6,230.2,398.3,ok
+27.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.0,131.6,230.2,398.7,ok
+28.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.3,131.6,230.2,369.0,ok
+29.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,4.3,131.7,230.2,367.6,ok
+30.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.4,131.7,230.2,367.5,ok
+31.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,4.4,131.7,230.2,363.3,ok
+32.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.5,131.7,230.2,363.5,ok
+33.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,4.6,131.7,230.2,363.5,ok
+34.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.6,131.7,230.2,363.6,ok
+35.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,4.6,131.7,230.2,363.8,ok
+36.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.7,131.7,230.2,364.1,ok
+37.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,4.9,131.8,230.2,364.4,ok
+38.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.6,131.8,230.2,364.8,ok
+39.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,4.5,131.8,230.2,364.8,ok
+40.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.5,131.8,230.2,365.7,ok
+41.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.6,131.4,230.2,366.0,ok
+42.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,4.7,131.4,230.2,366.0,ok
+43.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.7,131.4,230.2,366.2,ok
+44.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.7,131.5,230.2,366.2,ok
+45.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.95,33.3,1,0,0,4.7,131.5,230.2,366.2,ok
+46.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.7,131.5,230.2,366.3,ok
+47.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,4.7,131.5,230.2,366.3,ok
+49.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.2,131.5,230.2,366.1,ok
+50.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,4.9,131.5,230.2,366.1,ok
+51.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.1,131.5,230.2,366.1,ok
+52.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.0,131.5,230.2,367.2,ok
+53.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,4.9,131.5,230.2,367.4,ok
+54.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.1,131.5,230.2,367.4,ok
+55.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.0,131.6,230.2,367.5,ok
+56.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.2,131.6,230.2,368.5,ok
+57.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.1,131.6,230.2,368.5,ok
+58.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.1,131.6,230.2,368.5,ok
+59.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.2,131.6,230.2,368.6,ok
+60.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.1,131.6,230.2,368.6,ok
+61.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.3,131.6,230.2,368.6,ok
+62.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,4.9,132.5,230.2,365.8,ok
+63.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,4.9,132.5,230.2,365.8,ok
+64.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,4.9,132.5,230.2,366.0,ok
+65.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,4.9,132.5,230.2,366.0,ok
+66.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.0,132.5,230.2,366.0,ok
+67.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.0,132.5,230.2,366.1,ok
+68.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.0,132.5,230.2,365.1,ok
+69.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.1,132.5,230.2,365.1,ok
+70.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.1,132.5,230.2,364.8,ok
+71.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.2,132.5,230.2,365.3,ok
+72.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.4,132.6,230.2,365.3,ok
+73.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.4,132.6,230.2,365.3,ok
+74.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.3,132.6,230.2,365.6,ok
+75.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,132.6,230.2,365.6,ok
+76.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.4,132.6,230.2,365.9,ok
+77.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.4,132.6,230.2,366.0,ok
+78.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.4,132.6,230.2,366.5,ok
+79.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,132.7,230.2,366.9,ok
+80.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.6,132.5,230.2,367.4,ok
+81.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.5,132.5,230.2,367.4,ok
+82.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.5,132.5,230.2,367.5,ok
+83.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,132.5,230.2,367.5,ok
+84.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.5,132.6,230.2,367.4,ok
+85.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.4,132.6,230.2,367.5,ok
+86.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,132.6,230.2,367.5,ok
+87.4,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,132.6,230.2,367.3,ok
+88.4,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,132.6,230.2,367.4,ok
+89.4,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.6,132.6,230.2,367.5,ok
+90.4,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,132.6,230.2,367.8,ok
+91.4,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,132.6,230.2,367.8,ok
+92.4,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.6,132.6,230.2,368.1,ok
+93.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.7,132.7,230.2,368.1,ok
+94.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.6,132.7,230.2,368.4,ok
+95.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.7,132.7,230.2,368.7,ok
+96.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.4,132.4,230.2,368.7,ok
+97.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.5,132.5,230.2,368.8,ok
+98.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.5,132.5,230.2,368.8,ok
+99.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.5,132.5,230.2,368.8,ok
+100.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,132.5,230.2,368.9,ok
+101.5,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.6,132.5,230.2,368.9,ok
+102.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.6,132.5,230.2,368.9,ok
+103.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,132.5,230.2,369.0,ok
+104.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.6,132.5,230.2,369.0,ok
+105.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.6,132.5,230.2,369.0,ok
+106.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.7,132.5,230.2,369.1,ok
+107.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.7,132.5,230.2,368.8,ok
+108.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.4,132.5,230.2,368.3,ok
+109.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,132.5,230.2,368.2,ok
+110.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.94,33.4,1,0,0,5.5,132.6,230.2,368.0,ok
+111.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.5,132.6,230.2,368.0,ok
+112.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.6,132.6,230.2,368.1,ok
+113.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.6,132.6,230.2,368.1,ok
+114.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.9,0,0,0,6.3,132.6,230.2,368.1,ok
+115.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.4,132.6,230.2,368.2,ok
+116.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.4,132.6,230.2,368.2,ok
+117.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.5,132.6,230.2,368.2,ok
+118.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.5,132.6,230.2,368.2,ok
+119.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.6,132.4,230.2,368.2,ok
+120.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.9,0,0,0,6.5,132.4,230.2,367.2,ok
+121.7,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,132.4,230.2,367.2,ok
+122.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,132.4,230.2,367.2,ok
+123.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.6,132.5,230.2,367.2,ok
+124.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.7,132.5,230.2,367.2,ok
+125.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,132.5,230.2,367.2,ok
+126.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,132.5,230.2,367.2,ok
+127.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.4,132.5,230.2,367.2,ok
+128.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.6,132.5,230.2,367.2,ok
+129.8,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.5,132.5,230.2,367.2,ok
+130.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,132.5,230.2,367.2,ok
+131.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.5,132.5,230.2,367.2,ok
+132.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,132.6,230.2,367.2,ok
+133.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.6,132.6,230.2,367.2,ok
+134.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,132.6,230.2,367.2,ok
+135.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.6,230.2,369.1,ok
+136.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.6,230.2,369.1,ok
+137.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.8,133.4,230.2,369.1,ok
+138.9,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.8,133.4,230.2,369.1,ok
+140.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.8,133.5,230.2,369.1,ok
+141.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.9,133.5,230.2,369.1,ok
+142.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.4,133.5,230.2,367.9,ok
+143.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,133.5,230.2,367.9,ok
+144.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.5,133.5,230.2,367.4,ok
+145.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,133.5,230.2,367.4,ok
+146.0,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.5,133.5,230.2,367.4,ok
+147.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.5,230.2,367.4,ok
+148.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,133.6,230.2,367.4,ok
+149.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.6,230.2,367.4,ok
+150.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.6,230.2,367.4,ok
+151.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.7,133.6,230.2,367.4,ok
+152.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.6,230.2,367.4,ok
+153.1,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.6,230.2,367.4,ok
+154.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.8,133.6,230.2,367.4,ok
+155.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.4,133.6,230.2,367.4,ok
+156.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,133.4,230.2,367.5,ok
+157.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.4,133.4,230.2,367.5,ok
+158.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.6,133.5,230.2,367.5,ok
+159.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.5,133.5,230.2,367.5,ok
+160.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.6,133.5,230.2,367.5,ok
+161.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.7,133.5,230.2,367.5,ok
+162.2,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.6,133.5,230.2,367.5,ok
+163.3,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,133.5,230.2,367.5,ok
+163.6,Play,0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔,12,16.67,16.8,0,0,0,7.2,133.6,230.2,399.3,ok
+# screen 163.6s → Result
+# hitch 163.67s 200ms · Result
+164.6,Result,,58,20.40,200.0,2,2,1,10.1,112.2,205.5,378.3,ok
+165.6,Result,,52,16.67,16.8,0,0,0,10.3,112.2,205.5,378.5,ok
+# screen 165.6s → SongSelect
+166.6,SongSelect,,55,19.40,99.8,3,3,2,10.4,108.2,205.5,384.4,ok
+167.6,SongSelect,,58,17.53,66.7,1,1,1,6.7,113.6,205.5,386.7,ok
+168.6,SongSelect,,61,16.67,16.8,0,0,0,6.6,113.6,205.5,386.9,ok
+169.6,SongSelect,,60,16.67,16.8,0,0,0,6.6,113.6,205.5,386.9,ok
+170.6,SongSelect,,61,16.67,16.8,0,0,0,6.7,113.7,205.5,383.0,ok
+171.6,SongSelect,,61,16.67,16.8,0,0,0,6.7,113.7,205.5,381.2,ok
+172.0,SongSelect,,14,16.67,16.7,0,0,0,5.9,121.7,205.5,361.3,ok
+# screen 172.0s → Play · 0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔
+# hitch 172.54s 450ms · Play · 0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔
+173.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,36,30.56,450.1,2,2,2,6.8,146.4,243.0,399.6,ok
+174.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.6,146.4,243.0,398.8,ok
+175.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.6,146.4,243.0,398.3,ok
+176.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,146.4,243.0,398.1,ok
+177.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.1,146.1,243.0,398.2,ok
+178.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.1,146.2,243.0,398.1,ok
+179.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,146.2,243.0,387.9,ok
+180.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.1,146.2,243.0,389.2,ok
+181.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.1,146.2,243.0,389.3,ok
+182.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.2,146.2,243.0,389.1,ok
+183.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.3,146.2,243.0,389.1,ok
+184.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.4,146.3,243.0,389.1,ok
+185.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.5,146.3,243.0,389.1,ok
+186.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,146.3,243.0,389.1,ok
+187.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.5,146.3,243.0,389.1,ok
+188.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.9,146.3,243.0,389.4,ok
+189.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.3,146.3,243.0,389.4,ok
+190.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.3,146.3,243.0,389.2,ok
+191.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.3,146.3,243.0,389.2,ok
+192.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.2,146.3,243.0,389.2,ok
+193.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.2,146.4,243.0,389.2,ok
+194.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.4,146.4,243.0,389.2,ok
+195.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.4,146.4,243.0,389.2,ok
+196.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.4,146.4,243.0,389.2,ok
+197.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.3,146.4,243.0,389.2,ok
+198.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.4,146.4,243.0,389.2,ok
+199.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.5,146.2,243.0,389.1,ok
+200.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.5,146.2,243.0,389.1,ok
+201.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.6,146.3,243.0,389.1,ok
+202.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.7,146.3,243.0,389.1,ok
+203.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.6,146.3,243.0,389.3,ok
+204.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,146.3,243.0,389.3,ok
+205.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.7,146.3,243.0,388.8,ok
+206.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.7,146.3,243.0,388.8,ok
+207.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.7,146.3,243.0,388.8,ok
+208.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.8,146.3,243.0,388.8,ok
+209.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.8,146.4,243.0,388.9,ok
+210.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,5.8,146.4,243.0,389.2,ok
+211.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.4,146.4,243.0,389.2,ok
+212.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,146.4,243.0,389.2,ok
+213.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.5,146.4,243.0,389.2,ok
+214.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,146.4,243.0,389.2,ok
+215.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,5.6,146.5,243.0,389.2,ok
+216.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.6,146.5,243.0,389.2,ok
+217.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.8,146.3,243.0,389.2,ok
+218.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,5.7,146.3,243.0,389.2,ok
+219.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,5.8,146.3,243.0,389.2,ok
+220.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.8,146.3,243.0,389.2,ok
+221.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.0,146.3,243.0,389.2,ok
+222.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.0,146.3,243.0,389.2,ok
+223.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.3,146.3,243.0,389.2,ok
+224.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.2,146.3,243.0,389.2,ok
+225.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.2,146.3,243.0,389.2,ok
+226.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.3,146.4,243.0,389.2,ok
+227.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.3,146.4,243.0,389.2,ok
+228.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.3,146.4,243.0,389.2,ok
+229.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.3,146.4,243.0,389.2,ok
+230.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.3,146.4,243.0,389.2,ok
+231.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.4,146.4,243.0,389.2,ok
+232.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.4,146.4,243.0,389.2,ok
+233.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.0,146.4,243.0,389.2,ok
+234.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.1,146.4,243.0,389.2,ok
+235.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.0,146.5,243.0,389.4,ok
+236.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.0,146.5,243.0,389.4,ok
+237.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.1,146.5,243.0,390.0,ok
+238.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.1,146.3,243.0,390.0,ok
+239.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.1,146.3,243.0,390.0,ok
+240.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.2,146.3,243.0,390.0,ok
+241.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.1,146.3,243.0,390.0,ok
+242.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.2,146.3,243.0,390.0,ok
+243.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.1,146.3,243.0,390.0,ok
+244.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.3,146.3,243.0,390.0,ok
+245.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,6.1,146.3,243.0,389.9,ok
+246.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.0,146.4,243.0,389.9,ok
+247.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.2,146.4,243.0,389.9,ok
+249.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.1,146.4,243.0,389.9,ok
+250.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.2,146.4,243.0,389.9,ok
+251.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.2,146.4,243.0,389.9,ok
+252.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.3,146.4,243.0,389.9,ok
+253.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,6.2,146.4,243.0,389.9,ok
+254.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,6.3,146.4,243.0,389.9,ok
+255.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.4,146.4,243.0,389.9,ok
+256.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.3,146.4,243.0,389.9,ok
+257.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.5,146.4,243.0,389.9,ok
+258.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,6.4,146.4,243.0,389.9,ok
+259.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.0,146.5,243.0,390.2,ok
+260.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.0,146.3,243.0,390.2,ok
+261.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.2,146.3,243.0,390.2,ok
+262.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,6.2,146.3,243.0,390.2,ok
+263.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,6.1,146.3,243.0,390.2,ok
+264.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.1,146.3,243.0,390.2,ok
+265.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.3,146.3,243.0,390.2,ok
+266.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.3,146.3,243.0,390.2,ok
+267.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,146.3,243.0,390.2,ok
+268.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.3,146.3,243.0,390.2,ok
+269.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.4,243.0,391.0,ok
+270.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,391.0,ok
+271.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.3,147.4,243.0,391.0,ok
+272.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.4,147.4,243.0,391.0,ok
+273.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,391.0,ok
+274.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.4,147.4,243.0,391.0,ok
+275.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.5,147.4,243.0,390.5,ok
+276.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.5,147.5,243.0,390.5,ok
+277.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.0,147.5,243.0,390.5,ok
+278.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.5,243.0,390.5,ok
+279.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.1,147.5,243.0,390.5,ok
+280.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.1,147.3,243.0,390.8,ok
+281.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.2,147.3,243.0,390.8,ok
+282.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.1,147.3,243.0,390.5,ok
+283.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.3,243.0,390.4,ok
+284.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.2,147.3,243.0,390.3,ok
+285.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.3,243.0,390.3,ok
+286.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.3,243.0,389.9,ok
+287.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.3,243.0,389.9,ok
+288.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.3,147.4,243.0,389.9,ok
+289.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,389.9,ok
+290.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.1,147.4,243.0,389.9,ok
+291.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,389.9,ok
+292.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.1,147.4,243.0,389.9,ok
+293.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,389.9,ok
+294.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.1,147.4,243.0,389.9,ok
+295.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.4,243.0,389.9,ok
+296.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.5,243.0,389.9,ok
+297.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.4,147.5,243.0,390.0,ok
+298.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.3,147.5,243.0,390.1,ok
+299.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.4,147.5,243.0,390.1,ok
+300.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.5,147.5,243.0,390.1,ok
+301.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.4,147.3,243.0,390.1,ok
+302.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,7.5,147.3,243.0,390.1,ok
+303.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.5,147.3,243.0,390.1,ok
+304.5,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.1,147.3,243.0,390.1,ok
+305.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.3,147.3,243.0,390.1,ok
+306.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+307.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.3,243.0,390.1,ok
+308.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+309.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+310.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.3,147.4,243.0,390.1,ok
+311.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,390.1,ok
+312.6,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.3,147.4,243.0,390.1,ok
+313.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.5,147.4,243.0,390.1,ok
+314.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.3,147.4,243.0,390.1,ok
+315.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.4,147.4,243.0,390.1,ok
+316.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.4,147.4,243.0,390.1,ok
+317.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.4,243.0,390.1,ok
+318.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.1,147.4,243.0,390.1,ok
+319.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.4,243.0,390.1,ok
+320.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.5,243.0,390.1,ok
+321.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.5,243.0,390.1,ok
+322.7,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.1,147.5,243.0,390.1,ok
+323.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.2,243.0,390.1,ok
+324.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+325.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+326.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+327.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+328.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.3,147.3,243.0,390.1,ok
+329.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.2,147.3,243.0,390.1,ok
+330.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.5,147.3,243.0,390.1,ok
+331.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.3,243.0,391.1,ok
+332.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.3,243.0,391.1,ok
+333.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.3,243.0,391.1,ok
+334.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.4,243.0,391.1,ok
+335.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,391.1,ok
+336.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,391.1,ok
+337.9,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,391.1,ok
+339.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.3,147.4,243.0,391.1,ok
+340.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.3,147.4,243.0,391.1,ok
+341.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.5,147.4,243.0,391.1,ok
+342.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.4,147.5,243.0,391.1,ok
+343.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.5,147.5,243.0,391.1,ok
+344.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.4,147.5,243.0,391.1,ok
+345.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,7.0,147.3,243.0,391.1,ok
+346.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.4,147.3,243.0,391.1,ok
+347.0,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.2,147.3,243.0,391.1,ok
+348.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,7.1,147.3,243.0,391.1,ok
+349.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,7.3,147.3,243.0,391.1,ok
+350.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,11.3,147.3,243.0,391.1,ok
+351.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.3,147.3,243.0,391.1,ok
+352.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.1,147.4,243.0,391.1,ok
+353.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.2,147.4,243.0,391.1,ok
+354.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.1,147.4,243.0,391.1,ok
+355.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.2,147.4,243.0,391.1,ok
+356.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.1,147.4,243.0,391.1,ok
+357.1,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.2,147.4,243.0,391.1,ok
+358.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.3,147.4,243.0,391.1,ok
+359.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.2,147.4,243.0,391.1,ok
+360.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.3,147.5,243.0,391.1,ok
+361.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.3,147.5,243.0,391.1,ok
+362.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.4,147.5,243.0,391.1,ok
+363.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.3,147.5,243.0,391.1,ok
+364.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,9.3,147.5,243.0,391.1,ok
+365.2,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.2,147.5,243.0,391.1,ok
+366.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.1,147.3,243.0,391.1,ok
+367.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.2,147.3,243.0,391.1,ok
+368.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.3,147.3,243.0,391.1,ok
+369.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.1,147.3,243.0,391.1,ok
+370.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.2,147.3,243.0,391.1,ok
+371.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.3,147.3,243.0,391.1,ok
+372.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.2,147.3,243.0,391.1,ok
+373.3,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.3,147.3,243.0,391.1,ok
+374.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.4,147.3,243.0,391.1,ok
+375.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.7,0,0,0,9.4,147.3,243.0,391.1,ok
+376.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.7,0,0,0,9.3,147.4,243.0,391.1,ok
+377.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.4,147.4,243.0,391.1,ok
+378.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.6,147.4,243.0,391.1,ok
+379.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.4,147.4,243.0,391.1,ok
+380.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.3,147.4,243.0,391.1,ok
+381.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.4,147.4,243.0,391.1,ok
+382.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,61,16.67,16.8,0,0,0,9.5,147.4,243.0,391.1,ok
+383.4,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,60,16.67,16.8,0,0,0,9.3,147.4,243.0,391.1,ok
+383.8,Play,0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔,13,16.67,16.7,0,0,0,9.6,147.5,243.0,422.8,ok
+# screen 383.8s → Result
+# hitch 383.88s 200ms · Result
+384.8,Result,,57,20.76,199.9,2,2,2,14.3,114.8,205.5,394.0,ok
+385.9,Result,,61,16.67,16.8,0,0,0,14.1,114.8,205.5,394.0,ok
+386.4,Result,,30,16.67,16.8,0,0,0,14.4,114.8,205.5,394.0,ok
+# screen 386.4s → SongSelect
+# hitch 386.53s 117ms · SongSelect
+386.6,SongSelect,,6,36.10,116.5,2,1,1,14.3,109.4,205.5,400.3,ok
+# screen 386.6s → Title
+387.6,Title,,61,16.67,16.8,0,0,0,14.8,109.3,205.5,400.3,ok
+388.5,Title,,51,16.67,16.8,0,0,0,15.2,109.3,205.5,400.3,ok
+
+# ── 요약 (창을 내린 동안은 뺐다) ──
+# 화면 · 곡 | 시간(s) | 평균 fps | 1% low fps | 최악 ms | 끊김(>100ms) | 작업세트 최고 MB | 유니티 예약 최고 MB
+# Boot | 4 | 2.3 | 0.4 | 2670 | 5 | 488 | 187
+# Title | 3 | 44.2 | 6.0 | 433 | 4 | 507 | 206
+# SongSelect | 25 | 56.0 | 20.0 | 233 | 4 | 530 | 206
+# Play · 0113クッキーひとくち | MASTER Lv.18 | 아이템 auto-play | 저사양 끔 | 142 | 59.7 | 59.7 | 433 | 2 | 399 | 230
+# Result | 5 | 54.3 | 15.0 | 200 | 2 | 394 | 206
+# Play · 0201Electro Monster Parade | MASTER Lv.15 | 아이템 auto-play | 저사양 끔 | 212 | 59.9 | 59.6 | 450 | 1 | 423 | 243
+# 끝 2026-11-11 19:17:45
